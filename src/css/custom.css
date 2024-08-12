@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(https://fonts.bunny.net/css?family=inter:400,500,600,700);
+
+@layer base {
+	html {
+		font-family: "Inter", system-ui, sans-serif;
+	}
+}
+
+[data-theme="dark"] {
+	--ifm-color-primary: #c382f0;
+	--ifm-color-primary-dark: #ad54eb;
+	--ifm-color-primary-darker: #9727e5;
+	--ifm-color-primary-darkest: #7c17c2;
+	--ifm-color-primary-light: #d9b0f5;
+	--ifm-color-primary-lighter: #efddfb;
+	--ifm-color-primary-lightest: #ffffff;
+	--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.bg {
+	background-image: url("../assets/img/bg.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+html[data-theme="dark"] {
+	--ifm-background-surface-color: #0e1826;
+}
