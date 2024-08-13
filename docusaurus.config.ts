@@ -19,7 +19,7 @@ const config: Config = {
 	},
 
 	customFields: {
-		commitRef: process.env.COMMIT_REF.slice(0, 7),
+		commitRef: (process.env.COMMIT_REF ?? "").slice(0, 7),
 	},
 
 	presets: [
