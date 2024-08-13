@@ -18,6 +18,10 @@ const config: Config = {
 		locales: ["en"],
 	},
 
+	customFields: {
+		commitRef: process.env.COMMIT_REF,
+	},
+
 	presets: [
 		[
 			"classic",
@@ -117,13 +121,13 @@ const config: Config = {
 	themes: [
 		[
 			require.resolve("@easyops-cn/docusaurus-search-local"),
-			 /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
-			({
+			/** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+			{
 				hashed: true,
 				indexBlog: false,
-			})
-		]
-	]
+			},
+		],
+	],
 }
 
 export default config
