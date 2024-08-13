@@ -91,8 +91,10 @@ const config: Config = {
 					transform: {
 						react: {
 							runtime: "automatic",
+							useBuiltIns: true,
 						},
 					},
+					loose: true,
 				},
 				module: {
 					type: isServer ? "commonjs" : "es6",
