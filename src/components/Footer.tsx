@@ -32,8 +32,8 @@ export default function Footer() {
 						<p>
 							astralopedia/astralopedia@
 							<a
-								href={`https://github.com/Astralopedia/Astralopedia/commit/${customFields.commit_ref}`}>
-								{customFields.commit_ref as any}
+								href={`https://github.com/Astralopedia/Astralopedia/commit/${customFields.commitRef}`}>
+								{customFields.commitRef as any}
 							</a>
 						</p>
 					</div>
