@@ -61,7 +61,11 @@ export default function NavbarLayout({ children }: Props): JSX.Element {
 				},
 				isScroll ? "bg-[#0e1826bf] backdrop-blur" : "bg-[#0E1826]",
 			)}
-			style={isScroll ? { borderBottom: "1px solid #334155" } : {}}>
+			style={
+				isScroll
+					? { borderBottom: "1px solid #334155" }
+					: { borderBottom: "1px solid #0E1826" }
+			}>
 			{children}
 			<NavbarBackdrop onClick={mobileSidebar.toggle} />
 			<NavbarMobileSidebar />
