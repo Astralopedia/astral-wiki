@@ -106,6 +106,10 @@ const config: Config = {
 			},
 		}),
 	},
+	markdown: {
+		format: "detect",
+		mermaid: true,
+	},
 	plugins: [
 		() => {
 			return {
@@ -120,6 +124,7 @@ const config: Config = {
 	],
 	themes: [
 		[
+			"@docusaurus/theme-mermaid",
 			require.resolve("@easyops-cn/docusaurus-search-local"),
 			/** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
 			{
