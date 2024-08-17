@@ -3,7 +3,7 @@ import type { Config } from "@docusaurus/types"
 import { themes as prismThemes } from "prism-react-renderer"
 
 const config: Config = {
-	title: "Astralopedia",
+	title: "Astral Wiki",
 	tagline: "Create: Astral wiki",
 	favicon: "favicon.ico",
 
