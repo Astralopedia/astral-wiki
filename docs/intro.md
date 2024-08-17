@@ -8,7 +8,7 @@ slug: /
 **A guide and information database for the Create: Astral modpack for Minecraft,
 written and maintained by the players.**
 
-🚀 Astralopedia will help you play Create: Astral more easily.  
+🚀 Astral Wiki will help you play Create: Astral more easily.
 💸 Open-source, everyone can contribute.
 
 ## Want to Contribute?

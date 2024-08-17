@@ -13,6 +13,8 @@ out an infinite amount of liquid from a pool of this size.
 
 ## The set up
 
+**Only set up 1 hose pulley per lake or your FPS will be at risk.**
+
 Got the liquid? What now?
 
 Make sure the liquid lake is at least 10,001 blocks in volume. Lower hose pulley
