@@ -106,6 +106,12 @@ export default function Footer() {
 								target='_blank'>
 								License
 							</a>
+							<a
+								href='https://health.astral-chan.xyz'
+								className='text-gray-300'
+								target='_blank'>
+								Status
+							</a>
 						</div>
 					</div>
 					<div className='grid col-start-1 col-end-4 place-content-center lg:col-start-5 lg:col-end-6 lg:grid-rows-5'>
