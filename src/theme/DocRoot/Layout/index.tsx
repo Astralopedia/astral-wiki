@@ -5,9 +5,9 @@ import DocRootLayoutMain from "@theme/DocRoot/Layout/Main"
 import DocRootLayoutSidebar from "@theme/DocRoot/Layout/Sidebar"
 import { useState } from "react"
 
+import Alert from "@site/src/components/ui/Alert"
 import cn from "@site/src/utils/cn"
 import styles from "./styles.module.css"
-import Alert from "@site/src/components/ui/Alert"
 
 export default function DocRootLayout({ children }: Props): JSX.Element {
 	const sidebar = useDocsSidebar()
@@ -15,7 +15,7 @@ export default function DocRootLayout({ children }: Props): JSX.Element {
 
 	return (
 		<div className={cn(styles.docsWrapper, "bg-[#0E1826]")}>
-			<Alert/>
+			<Alert />
 			<BackToTopButton />
 			<div className={styles.docRoot}>
 				{sidebar && (
